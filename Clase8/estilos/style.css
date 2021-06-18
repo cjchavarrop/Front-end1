@@ -1,0 +1,78 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.separado_section{
+    margin-left: 255px;
+    margin-right: 255px;
+}
+
+.top{
+    margin-top: 50px;
+}
+
+.estudio{
+    padding-left: 91px;
+    margin-top: 1px;
+}
+
+.titulos_color{
+    color: #005677;
+    background: #C4C4C4;
+}
+
+.espaciado_subtitulo{
+    padding-left: 9px;
+}
+
+.contenido_separacion_izquierda{
+    margin-left: 49px;
+}
+
+.titulo_principal{
+    text-align: center;
+}
+
+.header_background{
+    background-image: url(../img/logo\ batman.png);
+    background-repeat: repeat;
+}
+
+.foto_principal{
+    display:block;
+    margin:auto;
+    width: 130px;
+    height: 150px;
+    
+}
+
+.custom_nav ul li{
+    display: inline;
+    /* Funciona como las manecillas de un reloj */
+    margin: 0px 8px 0px 8px;
+}
+
+.custom_nav a{
+    text-decoration: none;
+    color: brown;
+    font-weight: bolder;
+}
+
+footer{
+    background-color: #005677;
+    color: #FFFFFF;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+}
+
+footer p{
+    display: inline;
+}
+
+footer a{
+    text-decoration: none;
+    color: #FFFFFF;
+    padding-left: 20px;
+}
