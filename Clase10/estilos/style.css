@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+header p{
+    background-color: #1CD1B0;
+    height: 38px;
+    padding: 10px;
+    font-weight: 400;
+    font-size: 15px;
+    position: relative;
+}
+
+header h1{
+    background-color: #00669F;
+    height: 101px;
+    font-weight: 400;
+    font-size: 40px;
+    padding: 28px 28px 26px;
+}
+
+section{
+    display: flex;
+    margin-top: 154px;
+    margin-bottom: 151px;
+    justify-content: space-evenly;
+}
+
+footer{
+    height: 51px;
+    background-color: #00669F;
+    color: #FFF9F9;
+    font-size: 16px;
+    padding: 16px;
+}
+
+.tarjeta-position{
+    position: relative;
+}
+
+.tarjeta-ancho{
+    width: 300px;
+    background-color: #F3F3F3;
+}
+
+.tarjeta-texto{
+    font-size: 16px;
+    padding-left: 16px;
+    padding-right: 17px;
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+
+.tarjeta-titulo{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 74px;
+}
+
+.tarjeta-imagen-principal{
+    /* position: relative; */
+}
+
+.tarjeta-imagen-secundaria{
+    position: absolute;
+    border-radius: 50%;
+    top: 128px;
+    right: 90px;
+}
+
+.tarjeta-button{
+    color: #F3F3F3;
+    background-color: #00669F;
+    height: 48.52px;
+    width: 128.78px;
+    margin-left: 85px;
+    margin-bottom: 20px;
+}
+
+.tarjeta-icon{
+    color: #CC2424;
+    font-size: 30px;
+    position: absolute;
+    top: 16px;
+    left: 21px;
+}
