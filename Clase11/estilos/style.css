@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #E5E5E5;
+    width: 1024px;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    display: flex;
+    background-color: #222222;
+    justify-content: space-between;
+    align-items: center;
+    width: 1024px;
+    height: 100px;
+}
+
+header ul li{
+    display: inline;
+    color: #F3F3F3;
+    font-size: 16px;
+    margin-right: 13px;
+}
+
+header img{
+    margin-left: 20px;
+}
+
+main{
+    margin-top: 35px;
+    margin-bottom: 35px;
+    font-weight: 700;
+}
+
+section div ol li{
+    margin-left: 50px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+footer{
+    color: #F3F3F3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222222;
+    width: 1024px;
+    height: 150px;
+}
+
+footer img{
+    margin-right: 35px;
+}
+
+footer ul li{
+    margin-left: 20px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+.seccion_principal{
+    display: flex;
+    justify-content: center;
+}
+
+.position_section{
+    position: relative;
+}
+
+.section_texto{
+    position: absolute;
+    left: 20px;
+    top: 18px;
+    font-size: 24px;
+    color: #FC200C;
+}
+
+.tarjeta_imagen_flotante{
+    position: absolute;
+    right: 74px;
+    bottom: 89px;
+}
+
+.section_texto_blanco{
+    color: white;
+}
+
+.tamaño_section{
+    width: 490px;
+    height: 350px;
+    margin-left: 2px;
+    margin-right: 2px;
+    border-radius: 2%;
+}
+
+.tarjeta{
+    background-color: #FFFFFF;
+}
+
+.tarjeta_titulo{
+    color: #FC200C;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 26px;
+    font-size: 20px;
+}
+
+.tarjeta_subtitulo{
+    font-size: 20px;
+    margin-top: 58px;
+    margin-left: 69px;
+    margin-bottom: 15px;
+}
